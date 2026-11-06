@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">dont-sleep-so-late — Frontend Engineering · Robotics Interfaces</title>
+  <desc id="desc">A deep blue gradient banner with a clean robotic arm line illustration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220" />
+      <stop offset="0.58" stop-color="#142b55" />
+      <stop offset="1" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="arm" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9" />
+      <stop offset="1" stop-color="#bfdbfe" />
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#bfdbfe" stroke-opacity=".08" stroke-width="1" />
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="280" rx="24" fill="url(#bg)" />
+  <rect width="1200" height="280" rx="24" fill="url(#grid)" />
+  <circle cx="1115" cy="32" r="128" fill="#60a5fa" opacity=".08" />
+  <circle cx="1050" cy="276" r="188" fill="#22d3ee" opacity=".07" />
+  <path d="M0 235C220 205 360 285 590 244s369-26 610-98" fill="none" stroke="#93c5fd" stroke-opacity=".12" stroke-width="2" />
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+    <text x="72" y="102" fill="#f8fafc" font-size="38" font-weight="700" letter-spacing="1.2">DONT-SLEEP-SO-LATE</text>
+    <text x="74" y="148" fill="#bae6fd" font-size="17" font-weight="600" letter-spacing="3">FRONTEND ENGINEERING · ROBOTICS INTERFACES</text>
+    <text x="74" y="188" fill="#dbeafe" font-size="17" font-weight="400">Building clear, useful interfaces for complex systems.</text>
+    <rect x="74" y="218" width="54" height="4" rx="2" fill="#67e8f9" />
+    <circle cx="150" cy="220" r="3" fill="#93c5fd" opacity=".8" />
+  </g>
+  <g fill="none" stroke="url(#arm)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M824 225 876 178 958 178 1007 120 1080 120 1121 76" />
+    <path d="m1094 67 27 9-9 27M1117 67l27 9-9 27" stroke-width="6" />
+  </g>
+  <g fill="#0f1c35" stroke="#a5f3fc" stroke-width="5">
+    <circle cx="824" cy="225" r="17" />
+    <circle cx="876" cy="178" r="17" />
+    <circle cx="958" cy="178" r="16" />
+    <circle cx="1007" cy="120" r="17" />
+    <circle cx="1080" cy="120" r="15" />
+  </g>
+  <g fill="#e0f2fe">
+    <circle cx="824" cy="225" r="4" />
+    <circle cx="876" cy="178" r="4" />
+    <circle cx="958" cy="178" r="4" />
+    <circle cx="1007" cy="120" r="4" />
+    <circle cx="1080" cy="120" r="4" />
+  </g>
+  <path d="M765 246h96M910 220h52M1034 219h110" stroke="#bfdbfe" stroke-opacity=".34" stroke-width="1.5" stroke-dasharray="3 8" />
+</svg>
