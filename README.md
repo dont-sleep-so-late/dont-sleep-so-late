@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-banner.svg" alt="dont-sleep-so-late — Frontend × Robotics × 3D" width="100%" />
+  <img src="./assets/profile-banner-v2.svg" alt="dont-sleep-so-late — Frontend × Robotics × 3D" width="100%" />
   <h2>把复杂系统，做成清晰好用的体验。</h2>
   <p>前端开发 · 机器人上位机 · 3D 可视化</p>
   <p>
@@ -11,7 +11,7 @@
 
 ---
 
-<table>
+<table width="100%">
   <tr>
     <td align="center" width="33%"><strong>01 · FRONTEND</strong><br /><sub>Vue 3 · TypeScript<br />业务应用与交互体验</sub></td>
     <td align="center" width="33%"><strong>02 · ROBOTICS</strong><br /><sub>设备监控 · 实时通信<br />控制界面与 3D 可视化</sub></td>
