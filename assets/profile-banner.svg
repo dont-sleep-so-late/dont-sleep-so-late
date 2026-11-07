@@ -1,53 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
-  <title id="title">dont-sleep-so-late — Frontend Engineering · Robotics Interfaces</title>
-  <desc id="desc">A deep blue gradient banner with a clean robotic arm line illustration.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">dont-sleep-so-late — Frontend × Robotics × 3D</title>
+  <desc id="desc">A neon robotics control console with a humanoid dual-arm illustration.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1220" />
-      <stop offset="0.58" stop-color="#142b55" />
-      <stop offset="1" stop-color="#1d4ed8" />
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B18" />
+      <stop offset=".55" stop-color="#111A3A" />
+      <stop offset="1" stop-color="#24135C" />
     </linearGradient>
-    <linearGradient id="arm" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#67e8f9" />
-      <stop offset="1" stop-color="#bfdbfe" />
+    <radialGradient id="cyanGlow" cx="78%" cy="52%" r="55%">
+      <stop offset="0" stop-color="#06B6D4" stop-opacity=".28" />
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="violetGlow" cx="98%" cy="8%" r="68%">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity=".36" />
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="neon" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" />
+      <stop offset=".52" stop-color="#60A5FA" />
+      <stop offset="1" stop-color="#C084FC" />
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#bfdbfe" stroke-opacity=".08" stroke-width="1" />
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#A5B4FC" stroke-opacity=".08" stroke-width="1" />
+      <circle cx="0" cy="0" r="1.2" fill="#A5B4FC" fill-opacity=".16" />
     </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="5" result="blur" />
       <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
     </filter>
   </defs>
-  <rect width="1200" height="280" rx="24" fill="url(#bg)" />
-  <rect width="1200" height="280" rx="24" fill="url(#grid)" />
-  <circle cx="1115" cy="32" r="128" fill="#60a5fa" opacity=".08" />
-  <circle cx="1050" cy="276" r="188" fill="#22d3ee" opacity=".07" />
-  <path d="M0 235C220 205 360 285 590 244s369-26 610-98" fill="none" stroke="#93c5fd" stroke-opacity=".12" stroke-width="2" />
+  <rect width="1200" height="320" rx="26" fill="url(#background)" />
+  <rect width="1200" height="320" rx="26" fill="url(#cyanGlow)" />
+  <rect width="1200" height="320" rx="26" fill="url(#violetGlow)" />
+  <rect width="1200" height="320" rx="26" fill="url(#grid)" />
+  <path d="M0 262C210 216 342 300 562 255s371-34 638-104" fill="none" stroke="#93C5FD" stroke-opacity=".14" stroke-width="1.5" />
+  <path d="M688 0v320M716 0v320" stroke="#A5B4FC" stroke-opacity=".06" />
   <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-    <text x="72" y="102" fill="#f8fafc" font-size="38" font-weight="700" letter-spacing="1.2">DONT-SLEEP-SO-LATE</text>
-    <text x="74" y="148" fill="#bae6fd" font-size="17" font-weight="600" letter-spacing="3">FRONTEND ENGINEERING · ROBOTICS INTERFACES</text>
-    <text x="74" y="188" fill="#dbeafe" font-size="17" font-weight="400">Building clear, useful interfaces for complex systems.</text>
-    <rect x="74" y="218" width="54" height="4" rx="2" fill="#67e8f9" />
-    <circle cx="150" cy="220" r="3" fill="#93c5fd" opacity=".8" />
+    <rect x="72" y="55" width="238" height="30" rx="15" fill="#0F1B36" stroke="#4F46E5" stroke-opacity=".7" />
+    <circle cx="91" cy="70" r="4" fill="#22D3EE" filter="url(#softGlow)" />
+    <text x="105" y="75" fill="#C4B5FD" font-size="12" font-weight="600" letter-spacing="2">GDOU · SOFTWARE DEVELOPER</text>
+    <text x="70" y="137" fill="#F8FAFC" font-size="39" font-weight="750" letter-spacing=".3">DONT-SLEEP-SO-LATE</text>
+    <text x="74" y="177" fill="#67E8F9" font-size="16" font-weight="700" letter-spacing="3">FRONTEND × ROBOTICS × 3D</text>
+    <text x="74" y="213" fill="#D8E5FF" font-size="16">Building interfaces that connect software with the real world.</text>
+    <rect x="74" y="247" width="48" height="3" rx="1.5" fill="#22D3EE" />
+    <rect x="130" y="247" width="16" height="3" rx="1.5" fill="#818CF8" />
+    <rect x="154" y="247" width="7" height="3" rx="1.5" fill="#C084FC" />
   </g>
-  <g fill="none" stroke="url(#arm)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
-    <path d="M824 225 876 178 958 178 1007 120 1080 120 1121 76" />
-    <path d="m1094 67 27 9-9 27M1117 67l27 9-9 27" stroke-width="6" />
+  <g fill="none" stroke="url(#neon)" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+    <path d="M974 100v-22q0-11 11-11h35q11 0 11 11v22M982 100h42l13 19-6 48h-56l-6-48z" stroke-width="4" />
+    <path d="M989 91h27M993 80h5M1007 80h5M989 130h27M1002 120v37M984 146h37" stroke-width="2.5" />
+    <path d="M976 121l-34 8-37 37-42-15-34 22-28-4" stroke-width="8" />
+    <path d="M781 169l-12-10m12 10-12 11m72-29-7-13m7 13 12-8" stroke-width="4" />
+    <path d="M1030 121l34 8 37 37 42-15 34 22 20-4" stroke-width="8" />
+    <path d="M1187 169l10-10m-10 10 10 11m-54-29 7-13m-7 13-12-8" stroke-width="4" />
+    <circle cx="942" cy="129" r="15" stroke-width="3" />
+    <circle cx="905" cy="166" r="13" stroke-width="3" />
+    <circle cx="863" cy="151" r="12" stroke-width="3" />
+    <circle cx="1064" cy="129" r="15" stroke-width="3" />
+    <circle cx="1101" cy="166" r="13" stroke-width="3" />
+    <circle cx="1143" cy="151" r="12" stroke-width="3" />
   </g>
-  <g fill="#0f1c35" stroke="#a5f3fc" stroke-width="5">
-    <circle cx="824" cy="225" r="17" />
-    <circle cx="876" cy="178" r="17" />
-    <circle cx="958" cy="178" r="16" />
-    <circle cx="1007" cy="120" r="17" />
-    <circle cx="1080" cy="120" r="15" />
+  <g fill="#E0F2FE">
+    <circle cx="942" cy="129" r="3.5" /><circle cx="905" cy="166" r="3.5" /><circle cx="863" cy="151" r="3.5" />
+    <circle cx="1064" cy="129" r="3.5" /><circle cx="1101" cy="166" r="3.5" /><circle cx="1143" cy="151" r="3.5" />
   </g>
-  <g fill="#e0f2fe">
-    <circle cx="824" cy="225" r="4" />
-    <circle cx="876" cy="178" r="4" />
-    <circle cx="958" cy="178" r="4" />
-    <circle cx="1007" cy="120" r="4" />
-    <circle cx="1080" cy="120" r="4" />
+  <g fill="#A5B4FC" fill-opacity=".85" font-family="monospace" font-size="10" letter-spacing="1.5">
+    <text x="833" y="232">ARM_01</text><text x="1090" y="232">ARM_02</text>
+    <text x="832" y="252" fill="#67E8F9">AXIS 07 / ONLINE</text><text x="1090" y="252" fill="#C4B5FD">AXIS 07 / ONLINE</text>
   </g>
-  <path d="M765 246h96M910 220h52M1034 219h110" stroke="#bfdbfe" stroke-opacity=".34" stroke-width="1.5" stroke-dasharray="3 8" />
+  <g fill="none" stroke="#C4B5FD" stroke-opacity=".36" stroke-width="1" stroke-dasharray="3 6">
+    <path d="M818 271h370M824 89h91M1083 89h95" />
+  </g>
+  <g fill="#A5F3FC" filter="url(#softGlow)">
+    <circle cx="819" cy="271" r="2" /><circle cx="1188" cy="271" r="2" /><circle cx="824" cy="89" r="2" /><circle cx="1178" cy="89" r="2" />
+  </g>
 </svg>
