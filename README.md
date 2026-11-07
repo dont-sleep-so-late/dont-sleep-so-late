@@ -11,13 +11,7 @@
 
 ---
 
-<table width="100%">
-  <tr>
-    <td align="center" width="33%"><strong>01 · FRONTEND</strong><br /><sub>Vue 3 · TypeScript<br />业务应用与交互体验</sub></td>
-    <td align="center" width="33%"><strong>02 · ROBOTICS</strong><br /><sub>设备监控 · 实时通信<br />控制界面与 3D 可视化</sub></td>
-    <td align="center" width="33%"><strong>03 · DESKTOP</strong><br /><sub>Electron · Vite<br />从 Web 到桌面应用</sub></td>
-  </tr>
-</table>
+<p align="center"><strong>⚡ FRONTEND</strong> · Vue 3 / TypeScript &nbsp; • &nbsp; <strong>🤖 ROBOTICS</strong> · 3D / MQTT &nbsp; • &nbsp; <strong>🖥️ DESKTOP</strong> · Electron / Vite</p>
 
 ### 👋 关于我
 

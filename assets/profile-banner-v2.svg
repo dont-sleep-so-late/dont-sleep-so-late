@@ -65,8 +65,8 @@
     <circle cx="1064" cy="129" r="3.5" /><circle cx="1101" cy="166" r="3.5" /><circle cx="1143" cy="151" r="3.5" />
   </g>
   <g fill="#A5B4FC" fill-opacity=".85" font-family="monospace" font-size="10" letter-spacing="1.5">
-    <text x="833" y="232">ARM_01</text><text x="1090" y="232">ARM_02</text>
-    <text x="832" y="252" fill="#67E8F9">AXIS 07 / ONLINE</text><text x="1090" y="252" fill="#C4B5FD">AXIS 07 / ONLINE</text>
+    <text x="833" y="232">ARM_01</text><text x="1053" y="232">ARM_02</text>
+    <text x="832" y="252" fill="#67E8F9">AXIS 07 / ONLINE</text><text x="1053" y="252" fill="#C4B5FD">AXIS 07 / LIVE</text>
   </g>
   <g fill="none" stroke="#C4B5FD" stroke-opacity=".36" stroke-width="1" stroke-dasharray="3 6">
     <path d="M818 271h370M824 89h91M1083 89h95" />
